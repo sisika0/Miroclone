@@ -1,0 +1,148 @@
+header{
+	background-color: #FFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid rgba(59, 59, 59, 0.179);
+	width: 100%;
+	height: fit-content;
+}
+.headerlogo{
+	display: flex;
+	align-items: center;
+}
+.headerlogo img{
+	margin: 24px 24px 35px 20px;
+}
+header ul{
+	list-style: none;
+	display: flex;
+}
+a{
+	text-decoration: none;
+	 color: #050038 !important;
+}
+header ul li{
+	padding: 14px;
+	color: #050038;
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+.buttons{
+	display: flex;
+}
+.buttons button{
+	border-radius: 24px;
+	border: 1px solid #4262FF;
+	background: #4262FF;
+	color: white;
+	padding:12px;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+margin-right:20px;
+width: 157px;
+transition: 0.2s ease-out;
+flex-shrink: 0;
+}
+.buttons img{
+margin-right: 88px;
+transition: 0.2s ease-out;
+}
+.buttons button:hover{
+transform: scale(1.1);
+}
+.buttons img:hover{
+ transform: translateX(-7px);
+ filter: drop-shadow(20px 4px rgba(0, 0, 0, 0.25));
+}
+.container{
+	max-width: 1200px;
+	padding: 30px;
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+}
+ h1{
+	font-family: "Roboto", sans-serif;
+	color: #050038;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px; /* 116.667% */
+letter-spacing: 1px;
+}
+main p {
+	margin-top:19px;
+	margin-bottom: 55px;
+	font-family: "Roboto", sans-serif;
+	color: #050038;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+}
+input[type=text]{
+	width: 440px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 32px;
+border: 1px solid #9B99AF;
+border-radius: 32px;
+transition: border-color 0.2s ease-in-out;
+}
+input[type=text]:focus{
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.349);
+	font-size: 16px;
+	font-style: normal;
+	color: #050038;
+	padding-left: 5px;
+}
+main button{
+	border-radius: 32px;
+border: 1px solid #4262FF;
+background: #4262FF;
+padding: 10px;
+margin-top: 10px;
+width: 440px;
+height: 48px;
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+color: #FFF;
+}
+.content img{
+	margin: 61px 51px 170px 65px;
+}
+button ~ p {
+	color: #050038;
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px; /* 142.857% */
+}
+.partners{
+	display: flex;
+	margin-left: -60px;
+	margin-top: -52px;
+}
+.partners img{
+ margin-right: -30px;
+}
+.img1{
+	display: flex;
+	margin-top: -30px !important;
+}
