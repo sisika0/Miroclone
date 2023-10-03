@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../libs/fonts/Roboto-Regular.ttf') format('truetype');
+}
+*{
+	box-sizing: border-box;
+	
+}
 header{
 	background-color: #FFF;
 	display: flex;
@@ -11,8 +19,12 @@ header{
 	display: flex;
 	align-items: center;
 }
+.headerlogo img:hover{
+	transform: scale(1.1);
+}
 .headerlogo img{
 	margin: 24px 24px 35px 20px;
+	transition: all 0.3s ease;
 }
 header ul{
 	list-style: none;
@@ -31,6 +43,10 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; 
+transition: all 0.3s ease-out;
+}
+header ul li:hover{
+transform: translateY(-5px);
 }
 .buttons{
 	display: flex;
@@ -58,6 +74,13 @@ transition: 0.2s ease-out;
 .buttons button:hover{
 transform: scale(1.1);
 }
+.partners img{
+	transition: all 0.3s ease-in-out;
+}
+.partners img:hover{
+	transform: translateY(-5px);
+	filter: drop-shadow(0px 20px rgba(0, 0, 0, 0.25));
+}
 .buttons img:hover{
  transform: translateX(-7px);
  filter: drop-shadow(20px 4px rgba(0, 0, 0, 0.25));
@@ -79,7 +102,7 @@ font-weight: 400;
 line-height: 56px; /* 116.667% */
 letter-spacing: 1px;
 }
-main p {
+ p {
 	margin-top:19px;
 	margin-bottom: 55px;
 	font-family: "Roboto", sans-serif;
@@ -122,9 +145,14 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px;
 color: #FFF;
+transition: all 0.3s ease-in-out;
+}
+main button:active{
+transform:scale(0.9);
 }
 .content img{
 	margin: 61px 51px 170px 65px;
+	max-width: 100%;
 }
 button ~ p {
 	color: #050038;
@@ -145,4 +173,138 @@ button ~ p {
 .img1{
 	display: flex;
 	margin-top: -30px !important;
+	max-width: 100%;
+}
+span{ 
+	color: rgba(5, 0, 56, 0.60);
+font-family: "Roboto",sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.span{
+	margin-top: 19px;
+  width: 25em;
+
+}
+.img2{
+	display: flex;
+	max-width: 100%;
+	height: auto;
+	margin-top: -30px !important;
+	margin-right: 90px !important;
+}
+.learn{
+	font-family: "Roboto",sans-serif;
+	color: #4262FF !important;
+	text-decoration: underline;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+}
+.learndiv{
+	margin-top: 39px;
+}
+.container2{
+	max-width: 1200px;
+	padding-right: 153px;
+
+}
+.img3{
+	display: flex;
+	max-width: 100%;
+	margin-left: 10px !important;
+	margin-top: -30px !important;
+}
+.headertitle2{
+	color: #050038;
+	font-family: "Roboto",sans-serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 56px; /* 116.667% */
+	letter-spacing: 1px;
+	margin: 30px;
+}
+.headerli{
+	padding: 14px;
+	border-radius:24px ;
+	border: 1px solid #F2F2F2;
+	transition: all ease-out 0.2s;
+	margin-right: 26px;
+	color: #050038;
+font-family: "Roboto",sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+.headerli:hover{
+background-color: #f2f2f2;
+}
+.headernavul{
+	list-style: none;
+  display: flex;
+}
+.headernav2{
+	margin:30px ;
+}
+.img4{
+	margin: 20px 51px 170px 65px !important;
+	max-width: 100%;
+}
+.nike ul{
+	list-style: none;
+	margin: 50px 60px 32px 82px;
+	color: rgba(5, 0, 56, 0.60);
+font-family: "Roboto",sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+width:15em;
+margin-top: 10px;
+}
+.nike ul li{
+	margin-bottom: 18px;
+}
+.nikel::before{
+	content: url('/img/nike.svg');
+	position: absolute;
+	left: 80px;
+}
+.pt {
+	color: #050038;
+font-family: "Roboto",sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.yellowzone{
+	background: #FFD02F;
+	width: 100%;
+	height: fit-content;
+	min-height: 1027px;
+	padding-top:118px;
+}
+.yellowzone h1{
+	text-align: center;
+	
+}
+.linky{
+	color: #050038;
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin-top:18px;
+
+}
+.linky a {
+	border-bottom: 2px solid ;
 }
